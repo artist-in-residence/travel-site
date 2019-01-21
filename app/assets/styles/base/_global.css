@@ -11,3 +11,7 @@ img {
 * {
   box-sizing: border-box; /*all selectors on the page*/
 }
+
+a {
+  color: $mainOrange;
+}
