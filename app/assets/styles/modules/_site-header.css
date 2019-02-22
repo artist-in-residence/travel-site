@@ -41,7 +41,7 @@ padding-top: 12px;
   transform: translateX(0);
 
   .site-header--dark & { /*logo only when dark selector is loaded*/
-    transform: scale(.57);
+    transform: scale(.59);
   }
 }
 
