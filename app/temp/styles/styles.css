@@ -455,6 +455,10 @@ body {
   color: #333;
 }
 
+div {
+  display: block;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -977,6 +981,20 @@ margin: 0 auto;
   margin-top: 1em;
   font-size: 1.875rem
   }
+  }
+
+.reveal-item {
+  opacity: 0;
+  -webkit-transition: all .6s ease-out;
+  transition: all .6s ease-out;
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.reveal-item--is-visible {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 
 .testimonial {

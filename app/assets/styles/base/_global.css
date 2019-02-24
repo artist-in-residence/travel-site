@@ -3,6 +3,10 @@ body {
   color: #333;
 }
 
+div {
+  display: block;
+}
+
 img {
   max-width: 100%;
   height: auto;
